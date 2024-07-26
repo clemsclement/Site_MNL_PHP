@@ -1,0 +1,14 @@
+#Activation du rewrite des URL
+RewriteEngine On
+
+#Base du projet : emplacement à partir de la racine du serveur
+RewriteBase /Site_MNL_PHP
+
+#Si ce n'est pas un répertoire
+RewriteCond %{REQUEST_FILENAME} !-de
+
+#Si ce n'est pas un fichier
+RewriteCond %{REQUEST_FILENAME} !-fichier
+
+#Désigner le fichier routeur
+RewriteRule ^(.+)$ index.php [QSA,L]
