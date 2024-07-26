@@ -24,7 +24,7 @@ function renderHeader(){
                 <li>ACCUEIL</li>
                 <li>LA CARTE</li>
                 <li>À PROPOS</li>
-                <li><img src="" alt="Logo du Restaurant"></li>
+                <li><img src="" alt="Logo du Restaurant Marinade et Limonade"></li>
                 <li>RECETTE</li>
                 <li>CONTACT</li>
                 <div class="iconeNavBar">
