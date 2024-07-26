@@ -3,11 +3,11 @@ function renderFooter(){
     ob_start();
 ?>
 
-    <footer>
-        <ul>
-            <li>footer</li>
-        </ul>
-    </footer>
+<footer>
+    <ul>
+        <li>footer</li>
+    </ul>
+</footer>
 </body>
 </html>
 

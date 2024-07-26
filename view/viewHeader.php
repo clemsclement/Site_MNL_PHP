@@ -9,27 +9,23 @@ function renderHeader(){
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Marinade et Limonade</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Space+Grotesk:wght@700&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="../Site_MNL_PHP/css/style.css">
+    <link rel="stylesheet" href="./Site_MNL_PHP/css/style.css">
 
 </head>
 <body>
     <header>
+        <h1>Test</h1>
         <nav>
             <ul>
-                <li>ACCUEIL</li>
-                <li>LA CARTE</li>
-                <li>À PROPOS</li>
+                <li><a href="/Site_MNL_PHP">ACCUEIL</a></li>
+                <li><a href="/Site_MNL_PHP/lacarte">LA CARTE</a></li>
+                <li><a href="/Site_MNL_PHP/apropos">À PROPOS</a></li>
                 <li><img src="" alt="Logo du Restaurant Marinade et Limonade"></li>
-                <li>RECETTE</li>
-                <li>CONTACT</li>
+                <li><a href="/Site_MNL_PHP/lesRecettes">RECETTE</a></li>
+                <li><a href="/Site_MNL_PHP/contact">CONTACT</a></li>
                 <div class="iconeNavBar">
-                    <a href=""><img src="" alt="Icône Panier"></a>
-                    <a href=""><img src="" alt="Icône Login"></a>
+                    <a href="/Site_MNL_PHP/panier"><img src="" alt="Icône Panier"></a>
+                    <a href="/Site_MNL_PHP/login"><img src="" alt="Icône Login"></a>
                 </div>
             </ul>
         </nav>
