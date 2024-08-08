@@ -1,5 +1,5 @@
 <?php
-    echo renderHeader();
+    echo renderHeader("accueil.css");
     echo renderAccueil();
     echo renderFooter();
 ?>

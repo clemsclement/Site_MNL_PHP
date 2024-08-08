@@ -1,0 +1,104 @@
+.entete{
+    position: relative;
+    display: inline-block;
+    margin-bottom: 5%;
+}
+
+.entete img{
+    display: block;
+    width: 100%;
+    opacity: 0.5;
+}
+
+.entete .texteEntete{
+    position: absolute;
+    top: 10%;
+    margin-left: 5%;
+}
+
+h1{
+    font-size: 5rem;
+}
+
+.entete h2{
+    font-size: 3rem;
+}
+
+.entete h3{
+    font-size: 2rem;
+}
+
+.carteAccueil{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 5%;
+}
+
+.carteA{
+    background-color: #C7D076;
+    background-size: auto;
+    border-radius: 10px;
+    width: 25vw;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.carteA p{
+    font-size: 1.5em;
+}
+
+.carteAccueil img{
+    width: 40%;
+}
+
+button{
+    background-color: #513829;
+    border-radius: 10px;
+}
+
+button a{
+    color: #C7D076;
+    text-decoration: none;
+    font-family: "Amatic SC", sans-serif;
+    font-weight: bold;
+    font-size: 250%;
+    padding-right: 2em;
+    padding-left: 2em;
+}
+
+button a:visited{
+    color: #C7D076;
+    text-decoration: none;
+}
+
+.instagram{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+
+.instagram h3{
+    font-size: 3rem;
+    margin-right: 5%;
+}
+
+.instagram p{
+    font-size: 1rem;
+    color: #F8F1E1;
+}
+
+.instagram img{
+    filter: invert();
+}
+
+.swiper {
+    width: 400px;
+}
+
+.swiper img{
+    width: 100%;
+}

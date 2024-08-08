@@ -1,5 +1,5 @@
 <?php
-    echo renderHeader();
+    echo renderHeader("");
     echo renderLacarte();
     echo renderFooter();
 ?>
