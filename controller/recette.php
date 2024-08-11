@@ -1,5 +1,5 @@
 <?php
-    echo renderHeader();
+    echo renderHeader("recette.css");
     echo renderRecette();
     echo renderFooter();
 ?>

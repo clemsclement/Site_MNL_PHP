@@ -16,10 +16,13 @@ function renderHeader($link){
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/<?= $link ?>">
+    <link rel="stylesheet" href="./css/responsive.css">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
     <script src="./script/caroussel.js" defer></script>
     <script src="./script/script.js" defer></script>
+    <script src="./script/recette.js" defer></script>
+    <script src="./script/responsive.js" defer></script>
 </head>
 <body>
     <header>
@@ -37,6 +40,23 @@ function renderHeader($link){
 </li>
             </ul>
         </nav>
+        <section id="mySidenav" class="sidenav">
+            <a id="closeBtn" href="#" class="close">×</a>
+            <ul>
+                <li><a href="pages/carte.html">La carte</a></li>
+                <li><a href="pages/apropos.html">à propos</a></li>
+                <li><a href="pages/recettes.html">Recettes</a></li>
+                <li><a href="pages/contact.html">Contact</a></li>
+            </ul>
+        </section>
+        <section class="responsive">
+            <ul>
+                <a href="#" id="openBtn"><img src="./images/burgerMenu.png" alt="IcôneH Menu Burger"></a>
+                <img src="./images/logoResponsive.png" alt="LogoR Marinade et Limonade version responsive">
+                <a href="pages/panier.html"><img src="./images/panier.png" alt="IcôneH Panier"></a>
+                <a href="pages/connexion.html"><img src="./images/connexion.png" alt="IcôneH Connexion"></a>
+            </ul>
+        </section>
     </header>
 
 <?php

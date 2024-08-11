@@ -1,5 +1,5 @@
 <?php
-    echo renderHeader();
+    echo renderHeader("formulaire.css");
     echo renderInscription();
     echo renderFooter();
 ?>

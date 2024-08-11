@@ -67,6 +67,18 @@ img[alt^="IcôneF"]{
     height: 5vh;
 }
 
+img[alt^="IcôneH"]{
+    width: 50px;
+}
+
+img[alt="IcôneH Panier"]{
+    padding-right: 20px;
+}
+
+img[alt^="LogoR"]{
+    width: 100px; 
+}
+
 .containerGrand{
     display: flex;
     justify-content: space-around;
