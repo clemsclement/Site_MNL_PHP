@@ -43,18 +43,19 @@ function renderHeader($link){
         <section id="mySidenav" class="sidenav">
             <a id="closeBtn" href="#" class="close">×</a>
             <ul>
-                <li><a href="pages/carte.html">La carte</a></li>
-                <li><a href="pages/apropos.html">à propos</a></li>
-                <li><a href="pages/recettes.html">Recettes</a></li>
-                <li><a href="pages/contact.html">Contact</a></li>
+                <li><a href="/Site_MNL_PHP">Accueil</a></li>
+                <li><a href="/Site_MNL_PHP/lacarte">La carte</a></li>
+                <li><a href="/Site_MNL_PHP/apropos">À propos</a></li>
+                <li><a href="/Site_MNL_PHP/lesRecettes">Recettes</a></li>
+                <li><a href="/Site_MNL_PHP/contact">Contact</a></li>
             </ul>
         </section>
         <section class="responsive">
             <ul>
                 <a href="#" id="openBtn"><img src="./images/burgerMenu.png" alt="IcôneH Menu Burger"></a>
                 <img src="./images/logoResponsive.png" alt="LogoR Marinade et Limonade version responsive">
-                <a href="pages/panier.html"><img src="./images/panier.png" alt="IcôneH Panier"></a>
-                <a href="pages/connexion.html"><img src="./images/connexion.png" alt="IcôneH Connexion"></a>
+                <a href="/Site_MNL_PHP/panier"><img src="./images/panier.png" alt="IcôneH Panier"></a>
+                <a href="/Site_MNL_PHP/login"><img src="./images/connexion.png" alt="IcôneH Connexion"></a>
             </ul>
         </section>
     </header>

@@ -6,7 +6,7 @@ function renderLogin(){
 <main>
     <section class="enTete">
        <div class="contenu">
-            <h1>Inscription</h1>
+            <h1>Connexion</h1>
             <div class="formulaire">
                 <form action="" method="POST">
                     <div class="nomMail">

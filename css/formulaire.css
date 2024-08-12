@@ -97,3 +97,9 @@ input[type="submit"]{
 input[type="submit"]:hover{
     cursor: pointer;
 }
+
+@media screen and (max-width: 900px ) {
+    .enTete{
+        background-color: red;
+    }
+}

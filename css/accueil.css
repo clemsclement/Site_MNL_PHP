@@ -102,3 +102,61 @@ button a:visited{
 .swiper img{
     width: 100%;
 }
+
+@media screen and (max-width: 900px) {
+    h1{
+        font-size: 2.5rem;
+    }
+
+    .texteEntete > h2{
+        font-size: 2rem;
+    }
+
+    .texteEntete > h3{
+        font-size: 1.7rem;
+    }
+    
+    .carteAccueil{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    
+    .carteAccueil .carteA{
+        width: 75%;
+        height: auto;
+        margin-bottom: 5%;
+    }
+    
+    .instagram{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .instagram h3{
+        text-align: center;
+        font-size: 2rem;
+        margin-bottom: 2%;
+    }
+    
+    .instagram button{
+        font-size: 1rem;
+        text-align: center;
+        width: 75%;
+    }
+    
+    .instagram p{
+        display: none;
+    }
+    
+    .instagram img{
+        display: none;
+    }
+    
+    .swiper{
+        display: none;
+    }   
+}
