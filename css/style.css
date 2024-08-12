@@ -100,3 +100,9 @@ img[alt^="LogoR"]{
     height: 200px;
     width: 400px; 
 }
+
+@media screen and (max-width: 900px){
+    .containerGrand{
+       flex-direction: column;
+    }
+}
