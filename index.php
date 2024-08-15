@@ -11,6 +11,9 @@ include './env.php';
 include './view/viewHeader.php';
 include './view/viewFooter.php';
 
+// J'inclus mon fichier fontion
+include './utils/functions.php';
+
 // Je récupère les informations de la requête (l'URL) et j'isole le path (la partie après le nom de domaine dans l'URL)
 $url = parse_url($_SERVER['REQUEST_URI']);
 

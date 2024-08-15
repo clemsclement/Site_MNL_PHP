@@ -1,5 +1,5 @@
 <?php
-function renderContact(){
+function renderContact($message){
     ob_start();
 ?>
 
@@ -24,8 +24,9 @@ function renderContact(){
                     </div>
                     <label for="message">Votre message :</label>
                     <textarea name="userMessage" id="message"></textarea>
-                    <input type="submit" value="Envoyer">
+                    <input type="submit" name="envoyer" value="Envoyer">
                 </form>
+                <?= $message ?>
             </div>
         </div>
     </section>
