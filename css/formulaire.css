@@ -124,6 +124,13 @@ input[type="submit"]:hover{
 .connexion > p{
     font-size: 1.5rem;
 }
+
+h4{
+    text-align: center;
+    font-size: xx-large;
+    color: red;
+}
+
 @media screen and (max-width: 900px ) {
     .enTete{
        width: 100%;
