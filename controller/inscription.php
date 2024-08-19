@@ -38,21 +38,21 @@
         $bdd = connectBDD();
 
         //Vérification des doublons
-        $data = readUserByPseudo($bdd, $pseudoUser);
-
-        if(!empty($dataPseudo)){
+        $dataPseudo = readUserByPseudo($bdd, $pseudoUser);
+        var_dump($dataPseudo);
+        if($dataPseudo !== false){
             return "Ce pseudo est déjà pris.";
         }
 
-        $data = readUserByMail($bdd, $emailUser);
+        $dataMail = readUserByMail($bdd, $emailUser);
 
-        if(!empty($dataMail)){
+        if($dataMail !== false){
             return "Cet email est déjà pris.";
         }
 
-        $data = readUserByTel($bdd, $telUser);
+        $dataTel = readUserByTel($bdd, $telUser);
 
-        if(!empty($dataTel)){
+        if($dataTel !== false){
             return "Ce téléphone est déjà pris.";
         }
 
