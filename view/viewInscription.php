@@ -1,5 +1,5 @@
 <?php
-function renderInscription(){
+function renderInscription($message = ""){
     ob_start();
 ?>
 
@@ -8,7 +8,7 @@ function renderInscription(){
         <div class="contenu">
             <h1>Inscription</h1>
             <div class="formulaire">
-                <form action="" method="">
+                <form action="" method="POST">
                     <div class="nomMail">
                         <div class="formNom">
                             <label for="newName">Nom et Prénom :</label>
@@ -22,7 +22,7 @@ function renderInscription(){
                     <div class="nomMail">
                         <div class="formNom">
                             <label for="tel">Numéro de Téléphone :</label>
-                            <input type="tel" id="tel" name="newtel">
+                            <input type="tel" id="tel" name="newTel">
                         </div>
                         <div class="formMail">
                             <label for="newmail">Votre Mail :</label>
@@ -39,12 +39,13 @@ function renderInscription(){
                             <input type="password" id="confirmPassword" name="confirmPassword">
                         </div>
                     </div>
-                    <input type="submit" value="Inscription">
+                    <input type="submit" name="submitRegister" value="Inscription">
                     <div class="connexion">
                         <p>Déjà un compte ?</p>
                         <button><a href="/Site_MNL_PHP/login">Connexion</a></button>    
                     </div>
                 </form>    
+                <h4><?= $message ?></h4>
             </div>
         </div>
     </section>
