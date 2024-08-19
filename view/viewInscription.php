@@ -11,6 +11,16 @@ function renderInscription(){
                 <form action="" method="">
                     <div class="nomMail">
                         <div class="formNom">
+                            <label for="newName">Nom et Prénom :</label>
+                            <input type="text" id="nomPrenom" name="newName">
+                        </div>
+                        <div class="formMail">
+                            <label for="newPseudo">Votre Pseudo :</label>
+                            <input type="text" id="pseudo" name="newPseudo">
+                        </div>
+                    </div>
+                    <div class="nomMail">
+                        <div class="formNom">
                             <label for="tel">Numéro de Téléphone :</label>
                             <input type="tel" id="tel" name="newtel">
                         </div>
