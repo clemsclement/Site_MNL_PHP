@@ -64,3 +64,17 @@ function addUser($bdd, $nomPrenom, $pseudo, $tel, $email, $password){
         return $error -> getMessage();
     }
 }
+
+function readPlatByCategorie($bdd, $idCat){
+    try{
+        $req = $bdd -> prepare('SELECT image_plat, nom_plat, description_plat FROM plats WHERE id_categorie = ?');
+
+        $req -> bindParam(1, $idCat, PDO::PARAM_INT);
+
+        $req -> execute();
+
+        return $req -> fetchAll(PDO::FETCH_ASSOC);
+    }catch(EXCEPTION $error){
+        return $error -> getMessage();
+    }
+}

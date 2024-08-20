@@ -1,5 +1,8 @@
 <?php
     echo renderHeader("carte.css");
-    echo renderLacarte();
+
+    $bdd = connectBDD();
+    
+    echo renderLacarte($bdd);
     echo renderFooter();
 ?>

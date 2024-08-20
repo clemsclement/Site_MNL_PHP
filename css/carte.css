@@ -38,3 +38,28 @@ h1{
 .prix p{
     font-size: 1.5rem;
 }
+
+.affiche{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 5%;
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+article > img{
+    width: 90%;
+}
+
+article > h3{
+    font-size: 2rem;
+}
+
+article > p{
+    font-size: 1.5rem;
+}
