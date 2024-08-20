@@ -1,5 +1,5 @@
 <?php
-function renderLogin(){
+function renderLogin($message = ""){
     ob_start();
 ?>
 
@@ -21,8 +21,9 @@ function renderLogin(){
                             <input type="password" id="newPassword" name="newPassword">
                         </div>
                     </div>
-                    <input type="submit" value="Connexion">
+                    <input type="submit" name="submitLogin" value="Connexion">
                 </form>
+                <h4><?= $message ?></h4>
             </div>
             <div class="connexion">
                         <p>Pas de compte ?</p>

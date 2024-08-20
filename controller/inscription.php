@@ -39,7 +39,6 @@
 
         //Vérification des doublons
         $dataPseudo = readUserByPseudo($bdd, $pseudoUser);
-        var_dump($dataPseudo);
         if($dataPseudo !== false){
             return "Ce pseudo est déjà pris.";
         }
